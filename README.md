@@ -4,14 +4,15 @@
 "Process Uniaxial TDMS" is a standalone Windows application that facilitates the processing of TDMS files generated from uniaxial tests. It provides a user-friendly graphical interface, allowing users to select input and output directories, convert TDMS files to CSV format, pick key data points, and perform optional stress-strain analysis to derive Young's Modulus and Poisson's Ratio.
 
 ## System Requirements
-- Operating System: Windows 7 or later.
+- Operating System: Windows 7 or later (64-bit recommended).
+- Python: No Python installation required, as the application is a standalone executable.
 - Memory: At least 2 GB RAM (4 GB recommended).
 - Storage: At least 100 MB free space for the application, plus additional space for data files.
 
 ## Installation
 No installation is necessary. The application is distributed as a single executable file:
 
-1. Download "Process Uniaxial TDMS.exe" from the [Releases](#) page.
+1. Download "Process Uniaxial TDMS.exe" from the [Releases]([#](https://github.com/jessezondervan/Process-Uniaxial-TDMS/releases/)) page.
 2. Place the executable in your desired directory.
 3. Run the application by double-clicking on the executable.
 
@@ -37,5 +38,5 @@ For file processing issues, confirm that the input directory contains valid TDMS
 Contributions to the project are welcome! Please submit issues or pull requests through the GitHub repository.
 
 ## License
-This project is licensed under the [MIT License](#) - see the LICENSE file for details.
+This project is licensed under the [MIT License]([#](https://github.com/jessezondervan/Process-Uniaxial-TDMS/blob/main/LICENSE)https://github.com/jessezondervan/Process-Uniaxial-TDMS/blob/main/LICENSE) - see the LICENSE file for details.
 

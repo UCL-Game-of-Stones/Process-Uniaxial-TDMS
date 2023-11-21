@@ -39,7 +39,7 @@ Follow these steps to process your TDMS files:
 
 ## Example Data
 Stress-strain analysis for the calculation of Young's Modulus and Poisson's ratio is optional. If you do select this option, read this section.
-An example CSV file (`sample_info.csv`) is provided in the [examples](https://github.com/jessezondervan/Process-Uniaxial-TDMS/tree/main/examples) directory. This file includes sample names, average thickness, and diameter values necessary for stress-strain analysis. The file names needs to be (`sample_info.csv`) and located in the input directory with the TDMS files, and sample names in this CSV should correspond to the names of the TDMS files, including any captioning.
+An example CSV file (`sample_info.csv`) is provided in the [examples](https://github.com/jessezondervan/Process-Uniaxial-TDMS/tree/main/examples) directory. This file includes sample names, average thickness, and diameter values necessary for stress-strain analysis. The file names needs to be `sample_info.csv` and located in the input directory with the TDMS files, and sample names in this CSV should correspond to the names of the TDMS files, including any captioning.
 
 ### Format of the Example CSV
 - **Sample Name**: The names of the samples, matching the TDMS file names (including captions).

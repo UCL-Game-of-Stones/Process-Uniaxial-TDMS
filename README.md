@@ -37,6 +37,24 @@ Follow these steps to process your TDMS files:
 ### Stress-Strain Analysis
 - This optional feature is triggered if selected and requires additional sample data (like thickness and diameter) to be provided in a separate CSV file. The application uses this data along with the TDMS file data to plot stress-strain curves and enable point selection for calculating Young's modulus and Poisson's ratio.
 
+## Demo and Screenshots
+
+### Application Walkthrough
+Watch a quick [demo video](https://www.loom.com/share/826cae88ab2f4daaa1cf9bd09273efe6?sid=ce39c783-9781-48fa-9830-d0c77446daec) of the application in action, demonstrating key features and workflows.
+
+### Screenshots
+![Main Interface](screenshots/Main_interface.png)
+*Main Interface of the Application*
+
+![Graph Interaction](screenshots/Graph_1.png)
+*Interactive Graph for Picking Yield Strength*
+
+![Graph Interaction](screenshots/Graph_2.png)
+*Interactive Graph for Picking Linear Stress-Strain Range*
+
+![Results Output](screenshots/Output.png)
+*Viewing the Calculated Results*
+
 ## Example Data
 Stress-strain analysis for the calculation of Young's Modulus and Poisson's ratio is optional. If you do select this option, read this section.
 An example CSV file (`sample_info.csv`) is provided in the [examples](https://github.com/jessezondervan/Process-Uniaxial-TDMS/tree/main/examples) directory. This file includes sample names, average thickness, and diameter values necessary for stress-strain analysis. The file names needs to be `sample_info.csv` and located in the input directory with the TDMS files, and sample names in this CSV should correspond to the names of the TDMS files, including any captioning.

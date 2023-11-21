@@ -12,7 +12,7 @@
 ## Installation
 No installation is necessary. The application is distributed as a single executable file:
 
-1. Download "Process Uniaxial TDMS.exe" from the [Releases]([#](https://github.com/jessezondervan/Process-Uniaxial-TDMS/releases/)) page.
+1. Download "Process Uniaxial TDMS.exe" from the [Releases](https://github.com/jessezondervan/Process-Uniaxial-TDMS/releases/) page.
 2. Place the executable in your desired directory.
 3. Run the application by double-clicking on the executable.
 
@@ -38,5 +38,5 @@ For file processing issues, confirm that the input directory contains valid TDMS
 Contributions to the project are welcome! Please submit issues or pull requests through the GitHub repository.
 
 ## License
-This project is licensed under the [MIT License]([#](https://github.com/jessezondervan/Process-Uniaxial-TDMS/blob/main/LICENSE)https://github.com/jessezondervan/Process-Uniaxial-TDMS/blob/main/LICENSE) - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/jessezondervan/Process-Uniaxial-TDMS/blob/main/LICENSE) - see the LICENSE file for details.
 

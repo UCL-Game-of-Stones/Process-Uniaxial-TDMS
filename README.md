@@ -14,7 +14,7 @@ No installation is necessary. The application is distributed as a single executa
 
 1. Download "Process Uniaxial TDMS.exe" from the [Releases](https://github.com/jessezondervan/Process-Uniaxial-TDMS/releases/) page.
 2. Place the executable in your desired directory.
-3. Run the application by double-clicking on the executable.
+3. Run the application by double-clicking on the executable. (note: The app may take a few seconds to start up as your antimalware software may be scanning it. I haven't yet implemented a splash screen that shows you it is loading. Don't worry, it will start, patience is king 😉)
 
 ## Usage
 Follow these steps to process your TDMS files:
@@ -31,8 +31,8 @@ Follow these steps to process your TDMS files:
 - **Output Directory**: Choose where the processed files and results should be saved. The application will create CSV files and save them in this directory.
 
 ### Picking Points on Graphs
-- **Load vs Time Graph**: After processing the files, the application displays a Load vs Time graph for each sample. You can interactively select a point on this graph, and the application will calculate and display key information like picked load, background load, and the difference.
-- **Stress-Strain Graph (Optional)**: If performing stress-strain analysis, the application plots stress-strain curves. You can interactively select points on the axial strain curve. These points are used to calculate Young's modulus and Poisson's ratio, which are then added to the output CSV.
+- **Load vs Time Graph**: After processing the files, the application displays a Load vs Time graph for each sample. You can interactively select a point on this graph, and the application will calculate and display key information like picked load, background load, and the difference. After picking the point close the graph window to move on: you will get all the results in the CSV output file at the end.
+- **Stress-Strain Graph (Optional)**: If performing stress-strain analysis, the application plots stress-strain curves. You can interactively pick two points on the axial strain curve to select the linear range of stress-strain behaviour. This range is then used to calculate Young's modulus and Poisson's ratio, which are added to the output CSV. After picking the two points on the axial strain curve close the graph window to move on: you will get all the results in the CSV output file at the end.
 
 ### Stress-Strain Analysis
 - This optional feature is triggered if selected and requires additional sample data (like thickness and diameter) to be provided in a separate CSV file. The application uses this data along with the TDMS file data to plot stress-strain curves and enable point selection for calculating Young's modulus and Poisson's ratio.

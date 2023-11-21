@@ -42,6 +42,8 @@ Follow these steps to process your TDMS files:
 ### Application Walkthrough
 Watch a quick [demo video](https://www.loom.com/share/826cae88ab2f4daaa1cf9bd09273efe6?sid=ce39c783-9781-48fa-9830-d0c77446daec) of the application in action, demonstrating key features and workflows.
 
+[![Watch the demo video](https://cdn.loom.com/sessions/thumbnails/826cae88ab2f4daaa1cf9bd09273efe6-with-play.gif)](https://www.loom.com/share/826cae88ab2f4daaa1cf9bd09273efe6?sid=ce39c783-9781-48fa-9830-d0c77446daec)
+
 ### Screenshots
 <div align="center">
   <img src="screenshots/Main_interface.png" alt="Main Interface" width="400"/>

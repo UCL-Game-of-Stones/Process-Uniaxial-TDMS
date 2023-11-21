@@ -43,17 +43,19 @@ Follow these steps to process your TDMS files:
 Watch a quick [demo video](https://www.loom.com/share/826cae88ab2f4daaa1cf9bd09273efe6?sid=ce39c783-9781-48fa-9830-d0c77446daec) of the application in action, demonstrating key features and workflows.
 
 ### Screenshots
-![Main Interface](screenshots/Main_interface.png)
-*Main Interface of the Application*
+<div align="center">
+  <img src="screenshots/Main_interface.png" alt="Main Interface" width="400"/>
+  <p><i>Main Interface of the Application</i></p>
 
-![Graph Interaction](screenshots/Graph_1.png)
-*Interactive Graph for Picking Yield Strength*
+  <img src="screenshots/Graph_1.png" alt="Graph Interaction" width="400"/>
+  <p><i>Interactive Graph for Picking Yield Strength</i></p>
 
-![Graph Interaction](screenshots/Graph_2.png)
-*Interactive Graph for Picking Linear Stress-Strain Range*
+  <img src="screenshots/Graph_2.png" alt="Graph Interaction" width="400"/>
+  <p><i>Interactive Graph for Picking Linear Stress-Strain Range</i></p>
 
-![Results Output](screenshots/Output.png)
-*Viewing the Calculated Results*
+  <img src="screenshots/Output.png" alt="Results Output" width="400"/>
+  <p><i>Viewing the Calculated Results</i></p>
+</div>
 
 ## Example Data
 Stress-strain analysis for the calculation of Young's Modulus and Poisson's ratio is optional. If you do select this option, read this section.

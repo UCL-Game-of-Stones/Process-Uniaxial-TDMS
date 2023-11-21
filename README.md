@@ -21,13 +21,38 @@ Follow these steps to process your TDMS files:
 
 1. **Select Input Directory**: Click "Browse Input Directory" to choose the folder containing your TDMS files.
 2. **Select Output Directory**: Click "Browse Output Directory" to specify where the processed files and results will be stored.
-3. **Process Files**: Click "Process Files" to start the conversion and analysis. The application will handle the rest.
+3. **Process Files**: Click "Process Files" to start the conversion and analysis. 
+
+## Interactive Features
+"Process Uniaxial TDMS" is designed with user interaction in mind, making data processing both intuitive and efficient. Key interactive features include:
+
+### Directory Selection
+- **Input Directory**: Use the GUI to browse and select the directory that contains your TDMS files. This is where the application will read the files for processing.
+- **Output Directory**: Choose where the processed files and results should be saved. The application will create CSV files and save them in this directory.
+
+### Picking Points on Graphs
+- **Load vs Time Graph**: After processing the files, the application displays a Load vs Time graph for each sample. You can interactively select a point on this graph, and the application will calculate and display key information like picked load, background load, and the difference.
+- **Stress-Strain Graph (Optional)**: If performing stress-strain analysis, the application plots stress-strain curves. You can interactively select points on the axial strain curve. These points are used to calculate Young's modulus and Poisson's ratio, which are then added to the output CSV.
+
+### Stress-Strain Analysis
+- This optional feature is triggered if selected and requires additional sample data (like thickness and diameter) to be provided in a separate CSV file. The application uses this data along with the TDMS file data to plot stress-strain curves and enable point selection for calculating Young's modulus and Poisson's ratio.
+
+## Example Data
+Stress-strain analysis for the calculation of Young's Modulus and Poisson's ratio is optional. If you do select this option, read this section.
+An example CSV file (`example_sample_info_for_stress_strain.csv`) is provided in the [samples](link-to-the-samples-folder) directory. This file includes sample names, average thickness, and diameter values necessary for stress-strain analysis. The sample names in this CSV should correspond to the names of the TDMS files, including any captioning.
+
+### Format of the Example CSV
+- **Sample Name**: The names of the samples, matching the TDMS file names (including captions).
+- **Average Thickness**: The average thickness of the samples in millimeters.
+- **Average Diameter**: The average diameter of the samples in millimeters.
+
+Ensure that your data files adhere to this format for the stress-strain analysis to work correctly.
 
 ### Configuration
 Enter the machine stiffness correction factor (default 0.0023 mm/kN) in the provided input field if necessary.
 
 ## Output
-The application outputs CSV files with key data points, a summary of results, and stress-strain analysis if selected.
+The application outputs a CSV file with results from the analysis of interactive plots, including from stress-strain analysis if selected.
 
 ## Troubleshooting
 If the application does not start, ensure that your system meets the requirements and that you have the appropriate permissions to execute the program.
